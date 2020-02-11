@@ -1,0 +1,28 @@
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin: 6px 0;
+}
+
+.comment__author-image {
+  width: 10%;
+  text-align: center;
+}
+
+.comment__author-image img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.comment__content {
+  padding: 8px;
+  border-radius: 12px;
+  background: hsl(192, 7%, 92%);
+  max-width: 90%;
+}
+
+.comment__content .comment__author-name {
+  font-weight: bold;
+  margin-right: 6px;
+}

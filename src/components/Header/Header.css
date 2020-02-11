@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: hsl(215, 71%, 55%);
+  color: #fff;
+  height: 7%;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 32px;
+  padding: 0;
+  cursor: pointer;
+}
+
+h1:hover {
+  opacity: .7;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.profile .profile__link {
+  font-weight: bold;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.profile .profile__link:hover {
+  opacity: .7;
+}
+
+.profile .profile__icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.profile .profile__icon:hover{
+  opacity: .7;
+}
